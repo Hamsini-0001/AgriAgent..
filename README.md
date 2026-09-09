@@ -1,11 +1,5 @@
 # 🌱 AgriAgent — Autonomous Agricultural Market Intelligence & Negotiation Platform
 
-[![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
 > **AgriAgent** is a full-stack, autonomous agricultural market intelligence platform designed for Indian farmers. It eliminates middleman exploitation by evaluating buyer offers using **net take-home profit** (factoring real-time APMC Mandi rates, logistics haulage costs, and platform escrow) rather than deceptive gross sticker prices.
 
 ---
@@ -29,7 +23,7 @@
 
 ### 📦 4. My Produce Listings & Crop Management
 - **Listing Management**: Add and manage harvested crops with quantity, grade (Grade A/B/C), packaging, and target asking price.
-- **Accurate Imagery & Metadata**: Verified image mapping for crops (Tomatoes, Green Chillies, Potatoes, Cotton, etc.) to ensure buyers receive accurate visual listings.
+- **Accurate Crop Metadata**: Verified crop details and categorization (Tomatoes, Green Chillies, Potatoes, Cotton, etc.) to ensure buyers receive clear listings.
 
 ### 🚚 5. Smart Logistics & Vehicle Dispatch
 - **Logistics Matching**: Match crop orders with verified local transporters (Tata Ace, Pickup 8ft, Eicher 14ft, Tractor Trolley).
@@ -61,7 +55,7 @@ agriagent/
 │   │   ├── ai/              # Agent Engine, Tool Execution, Local TTS/STT
 │   │   ├── api/             # Groq LPU & Gemini API integrations
 │   │   └── market/          # Market Price Aggregation & Freight Economics
-│   └── utils/               # Currency, Date, and Crop Image Resolvers
+│   └── utils/               # Currency, Date, and Crop Helper Resolvers
 ├── server/
 │   └── index.js             # Express API proxy for secure AI model execution
 └── public/                  # Static assets & icons
@@ -70,7 +64,6 @@ agriagent/
 | Layer | Technologies |
 |---|---|
 | **Frontend Framework** | React 18 with TypeScript |
-| **Build Tool** | Vite |
 | **Styling** | Tailwind CSS with responsive layout |
 | **Icons** | Lucide React |
 | **State Management** | React Context API (`AppContext`) + LocalStorage Persistence |
@@ -82,7 +75,7 @@ agriagent/
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
-- [Node.js](https://nodejs.org/) (version 18 or higher)
+- Node.js (version 18 or higher)
 - npm or yarn
 
 ### 2. Clone the Repository
@@ -136,16 +129,5 @@ npm run build
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
